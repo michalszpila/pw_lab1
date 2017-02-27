@@ -1,9 +1,9 @@
-﻿Build started 2017-02-27 11:17:33.
+﻿Build started 2017-02-27 12:04:35.
      1>Project "C:\Users\student\Desktop\pw_lab1\pw_lab1\build\Trygonometria\Trygonometria.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Trygonometria.dir\Debug\Trygonometria.lastbuildstate".
        InitializeBuildStatus:
-         Touching "Trygonometria.dir\Debug\Trygonometria.unsuccessfulbuild".
+         Creating "Trygonometria.dir\Debug\Trygonometria.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
          Building Custom Rule C:/Users/student/Desktop/pw_lab1/pw_lab1/src/Trygonometria/CMakeLists.txt
          CMake does not need to re-run because C:\Users\student\Desktop\pw_lab1\pw_lab1\build\Trygonometria\CMakeFiles\generate.stamp is up-to-date.
@@ -20,4 +20,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.36
+Time Elapsed 00:00:00.39

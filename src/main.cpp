@@ -25,9 +25,10 @@ int main()
 
 	//double sin = sin_degree(90);
 
+	std::cout<<"testowanie"<<std::endl;
 	std::cout<<"Rezultat: "<< std::endl;
 	std::cout<<result << std::endl;
 
 
-	return 0;
+	return result;
 }

@@ -1,14 +1,18 @@
-﻿Build started 2017-02-27 11:41:08.
-     1>Project "C:\Users\student\Desktop\pw_lab1\pw_lab1\build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 2017-02-27 12:04:35.
+     1>Project "C:\Users\student\Desktop\pw_lab1\pw_lab1\build\ZERO_CHECK.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
-         All outputs are up-to-date.
+         Checking Build System
+         CMake does not need to re-run because C:/Users/student/Desktop/pw_lab1/pw_lab1/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/student/Desktop/pw_lab1/pw_lab1/build/Trygonometria/CMakeFiles/generate.stamp is up-to-date.
        FinalizeBuildStatus:
          Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
          Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
-     1>Done Building Project "C:\Users\student\Desktop\pw_lab1\pw_lab1\build\ZERO_CHECK.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\student\Desktop\pw_lab1\pw_lab1\build\ZERO_CHECK.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:00.10
