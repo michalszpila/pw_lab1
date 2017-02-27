@@ -1,14 +1,32 @@
 #include <iostream> // std::cout, std::cin
 #include <string> // std::string
+#include <LaborkaConfig.h>
+
+#ifdef USE_TRIGONOMETRY_DEGREE
 #include <trygonometria.h>
+#else
+#include <math.h>
+#endif
 
 int main()
 {
 
-	double sin = sin_degree(90);
+	const double PI = 3.14159265358979323846;
 
-	std::cout<<"Sinus 90 stopni: "<< std::endl;
-	std::cout<<sin << std::endl;
+	double result = 0;
+
+	#ifdef USE_TRIGONOMETRY_DEGREE
+	result = cos_degree(45.0);
+	#else
+	result = cos(pi/4.0);
+	#endif
+
+
+
+	//double sin = sin_degree(90);
+
+	std::cout<<"Rezultat: "<< std::endl;
+	std::cout<<result << std::endl;
 
 
 	return 0;
